@@ -36,6 +36,12 @@ app.listen(3000);
 > - It should be easy to share a common developement enviroment to set up with employees and collagues.
 > - we **don't** want to uninstall and re-install local dependencies and runtimes all the time.
 
+## Docker Containers Pros
+
+> - Low impact on OS, very fast, minimal disk space usage.
+> - Sharing, re-building and distribution is easy.
+> - Encapsulates apps/enviroments instead of "whole machines".
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
