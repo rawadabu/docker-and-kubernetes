@@ -30,6 +30,12 @@ app.listen(3000);
 
 ```
 
+## So what we want to have?
+
+> - Exact same environment for development and production, this ensures that it works exactly as tested.
+> - It should be easy to share a common developement enviroment to set up with employees and collagues.
+> - we **don't** want to uninstall and re-install local dependencies and runtimes all the time.
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
