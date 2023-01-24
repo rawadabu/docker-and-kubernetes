@@ -35,6 +35,8 @@ EXPOSE port:port
 CMD ["run"]
 ```
 
-After that, we build the Image with `docker build [folder]`, `docker ps` to show what containers are running
+After that, we build the Image with `docker build [folder]`, `docker ps` to show what containers are running, `docker ps -a` to see al the past containers you had in the past, please use `docker ps --help` for further informations.
 
 To run, `docker run -p [my-local-port]:[container-port] [image]`, -p stands for **PUBLISH**.
+
+For further info on commands, please use `docker --help`.
