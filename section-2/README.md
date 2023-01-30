@@ -40,3 +40,9 @@ After that, we build the Image with `docker build [folder]`, `docker ps` to show
 To run, `docker run -p [my-local-port]:[container-port] [image]`, -p stands for **PUBLISH**.
 
 For further info on commands, please use `docker --help`.
+
+To listen to outputs, we can use `docker logs -f`.
+
+## Start in attached mode
+
+`docker start -a [image-name]`
